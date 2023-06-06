@@ -1,6 +1,6 @@
 import type { StoryObj, Meta } from '@storybook/react';
 
-import { Box, IBoxProps } from '@ignite-ui/react';
+import { Box, IBoxProps, Text } from '@ignite-ui/react';
 
 export default {
   title: 'Surfaces/Box',
@@ -8,11 +8,7 @@ export default {
 
   // são as propriedades
   args: {
-    children: (
-      <>
-        <span>Testando o elemento Box</span>
-      </>
-    ),
+    children: <Text>Testando o elemento Box</Text>,
   },
 } as Meta<IBoxProps>;
 

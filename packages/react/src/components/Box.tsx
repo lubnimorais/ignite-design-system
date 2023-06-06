@@ -1,4 +1,4 @@
-import { ComponentProps } from 'react';
+import { ComponentProps, ElementType } from 'react';
 import { styled } from '../styles';
 
 export const Box = styled('div', {
@@ -10,5 +10,6 @@ export const Box = styled('div', {
   backgroundColor: '$gray800',
 });
 
-// eslint-disable-next-line prettier/prettier
-export interface IBoxProps extends ComponentProps<typeof Box> { }
+export interface IBoxProps extends ComponentProps<typeof Box> {
+  as?: ElementType;
+}
