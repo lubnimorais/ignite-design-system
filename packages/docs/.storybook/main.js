@@ -17,5 +17,14 @@ const config = {
   docs: {
     autodocs: "tag",
   },
+  viteFinal: (config, { configType }) => {
+    if (configType === 'PRODUCTION') {
+      // Qual é o subdiretório que o projeto vai estar
+      // Como estamos fazendo no Github, o sub-diretório é sempre o nome do repositório
+      config.base = '/ignite-design-system/'
+    }
+
+    return config;
+  }
 };
 export default config;
