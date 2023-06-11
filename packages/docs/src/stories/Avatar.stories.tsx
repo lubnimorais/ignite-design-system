@@ -12,6 +12,13 @@ export default {
     src: 'https://github.com/lubnimorais.png',
     alt: 'Lubni Morais',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<IAvatarProps>;
 
 export const Primary: StoryObj<IAvatarProps> = {};
