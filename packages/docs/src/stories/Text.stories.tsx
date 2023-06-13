@@ -1,6 +1,6 @@
 import type { StoryObj, Meta } from '@storybook/react';
 
-import { Text, ITextProps } from '@ignite-ui/react';
+import { Text, ITextProps } from '@lubni-ignite-ui/react';
 
 export default {
   title: 'Typography/Text',

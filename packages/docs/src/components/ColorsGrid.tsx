@@ -1,4 +1,4 @@
-import { colors } from '@ignite-ui/tokens';
+import { colors } from '@lubni-ignite-ui/tokens';
 
 import { getContrast } from 'polished';
 
